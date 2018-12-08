@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  padding: 60px 40px 40px 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  a {
+    color: rgba(0, 0, 0, 0.6) !important;
+    text-decoration: none;
+  }
+}
+
+.nav__right {
+  margin-left: auto;
+}
+
+.nav__link {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav__logo {
+  font-weight: bold;
+}

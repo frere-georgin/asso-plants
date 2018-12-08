@@ -1,7 +1,11 @@
 import Page from "../layouts/main";
+import Nav from "../components/Nav";
+import AutoComplete from "../components/AutoComplete";
+import Illustration from "../components/Illustration";
 const Landing = ({ stars }) => (
   <Page>
-    landing <pre>{stars}</pre>
+    <AutoComplete />
+    <Illustration name="laitue" />
   </Page>
 );
 

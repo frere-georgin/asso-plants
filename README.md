@@ -2,32 +2,36 @@
 
 Tableau d'associations de plantes de potager à visée éducative.
 
-## [INSTALLER](#INSTALLER)
+## [Installation](#INSTALLER)
 
 `npm install -g next`
 `npm install`
 
-## [LANCER LE PROJET](#LANCERLEPROJET)
+## [Lancer le projet](#LANCERLEPROJET)
 
 server url localhost:3000
 `npm run dev`
 
-## [PLANCHES](#PLANCHES)
+## [Planches](#PLANCHES)
 
 https://sketch.cloud/s/1xglO
 
-## [SOURCES](#SOURCES)
+## [Sources](#SOURCES)
 
 ### Description
 
 - Wikipedia
 
-### Description
+### Date de semi / Recole
+
+- Wikipedia
 
 ### Types de sols
 
 - http://www.fermebedardblouin.com/a-chaque-type-sol-ses-legumes-conseil,9,19,42
 
-## [CONTACT](#CONTACT)
+### Types de sols
 
-## [A PROPOS](#APROPOS)
+## [Contact](#CONTACT)
+
+## [A Propos](#APROPOS)

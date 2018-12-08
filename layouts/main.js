@@ -1,7 +1,9 @@
-import Header from "../components/Header";
+import Nav from "../components/Nav";
+import "../css/main.scss";
+
 export default ({ children }) => (
-  <div>
-    <Header />
+  <div className="screen-size">
+    <Nav />
     {children}
   </div>
 );
