@@ -2,12 +2,13 @@ import Page from "../layouts/main";
 import Nav from "../components/Nav";
 import AutoComplete from "../components/AutoComplete";
 import Illustration from "../components/Illustration";
+import Vegetable from "../components/Vegetable";
 import { Link } from "../routes";
 
 const Landing = ({ vegetable }) => (
   <Page>
     <AutoComplete data={vegetable} />
-    <Illustration name="laitue" />
+    <Vegetable />
     <Link route="vegetables">
       <a>Legumes</a>
     </Link>

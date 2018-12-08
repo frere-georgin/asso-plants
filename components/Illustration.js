@@ -1,5 +1,3 @@
-import React from "react";
-
 class Illustration extends React.Component {
   render() {
     const props = this.props;
