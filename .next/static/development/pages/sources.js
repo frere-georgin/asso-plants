@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/landing.js"],{
+((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/sources.js"],{
 
 /***/ "./components/Header.js":
 /*!******************************!*\
@@ -9918,9 +9918,9 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./pages/landing.js":
+/***/ "./pages/sources.js":
 /*!**************************!*\
-  !*** ./pages/landing.js ***!
+  !*** ./pages/sources.js ***!
   \**************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -9930,7 +9930,7 @@ __webpack_require__.r(__webpack_exports__);
 /* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _layouts_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/main */ "./layouts/main.js");
-var _jsxFileName = "/home/wemiced/dev/asso-plants/pages/landing.js";
+var _jsxFileName = "/home/wemiced/dev/asso-plants/pages/sources.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -9946,7 +9946,7 @@ var _jsxFileName = "/home/wemiced/dev/asso-plants/pages/landing.js";
       lineNumber: 4
     },
     __self: this
-  }, "my page with global styles!"));
+  }, "sources!"));
 });
     (function (Component, route) {
       if(!Component) return
@@ -9964,21 +9964,21 @@ var _jsxFileName = "/home/wemiced/dev/asso-plants/pages/landing.js";
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/landing")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/sources")
   
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../node_modules/webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!********************************!*\
-  !*** multi ./pages/landing.js ***!
+  !*** multi ./pages/sources.js ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__NEXT_REGISTER_PAGE('/landing', function() {
-module.exports = __webpack_require__(/*! ./pages/landing.js */"./pages/landing.js");
+__NEXT_REGISTER_PAGE('/sources', function() {
+module.exports = __webpack_require__(/*! ./pages/sources.js */"./pages/sources.js");
 
 return { page: module.exports.default }});
 
@@ -9995,5 +9995,5 @@ module.exports = dll_e8427f5b250f425a56e7;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
-//# sourceMappingURL=landing.js.map
+},[[5,"static/runtime/webpack.js"]]]));;
+//# sourceMappingURL=sources.js.map

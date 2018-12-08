@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -194,10 +194,10 @@ var _jsxFileName = "/home/wemiced/dev/asso-plants/layouts/main.js";
 
 /***/ }),
 
-/***/ "./pages/landing.js":
-/*!**************************!*\
-  !*** ./pages/landing.js ***!
-  \**************************/
+/***/ "./pages/about.js":
+/*!************************!*\
+  !*** ./pages/about.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -206,7 +206,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _layouts_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../layouts/main */ "./layouts/main.js");
-var _jsxFileName = "/home/wemiced/dev/asso-plants/pages/landing.js";
+var _jsxFileName = "/home/wemiced/dev/asso-plants/pages/about.js";
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
@@ -222,19 +222,19 @@ var _jsxFileName = "/home/wemiced/dev/asso-plants/pages/landing.js";
       lineNumber: 4
     },
     __self: this
-  }, "my page with global styles!"));
+  }, "about!"));
 });
 
 /***/ }),
 
-/***/ 3:
-/*!********************************!*\
-  !*** multi ./pages/landing.js ***!
-  \********************************/
+/***/ 4:
+/*!******************************!*\
+  !*** multi ./pages/about.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./pages/landing.js */"./pages/landing.js");
+module.exports = __webpack_require__(/*! ./pages/about.js */"./pages/about.js");
 
 
 /***/ }),
@@ -262,4 +262,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=landing.js.map
+//# sourceMappingURL=about.js.map
