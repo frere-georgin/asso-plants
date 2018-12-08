@@ -1,0 +1,13 @@
+.vegetable {
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.vegetable__column {
+  width: 33%;
+}
+
+.vegetable__column--centered {
+  align-self: center;
+}
