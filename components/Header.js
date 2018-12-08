@@ -1,7 +1,9 @@
 import Link from "next/link";
 export default () => (
   <nav>
-    asso-plants{" "}
+    <Link href="/">
+      <a>asso-plants </a>
+    </Link>{" "}
     <Link href="/contribute">
       <a>contribuer</a>
     </Link>{" "}
