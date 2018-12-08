@@ -1,7 +1,9 @@
 # asso-plants
 
+## install
 
-
+`npm install -g next`
+`npm install`
 
 ## Sketch url
 
