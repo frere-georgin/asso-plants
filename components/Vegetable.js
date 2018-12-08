@@ -1,6 +1,7 @@
 import Illustration from "./Illustration";
 import TitleDescription from "./TitleDescription";
 import GroundType from "./GroundType";
+import InfoNutrition from "./InfoNutrition";
 
 class Vegetable extends React.Component {
   render() {
@@ -8,7 +9,8 @@ class Vegetable extends React.Component {
       <React.Fragment>
         <Illustration name="laitue" />
         <TitleDescription title="Tomate" description="mabite" />
-        <GroundType groundTypes={["test", "toto"]} />
+        <GroundType groundTypes={["clay", "sand"]} />
+        <InfoNutrition infoNutrition="data" />
       </React.Fragment>
     );
   }

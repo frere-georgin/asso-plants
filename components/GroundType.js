@@ -14,13 +14,13 @@ class GroundType extends React.Component {
     });
 
     return (
-      <div>
+      <section>
         <h3>
           <i className={this.props.groundTypeLabelIcon || ""}></i>
           Type de sol
         </h3>
         {array}
-      </div>
+      </section>
     )
   }
 }
