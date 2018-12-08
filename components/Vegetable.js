@@ -7,6 +7,7 @@ class Vegetable extends React.Component {
       <React.Fragment>
         <Illustration name="laitue" />
         <TitleDescription title="Tomate" description="mabite" />
+        <GroundType name={["test", "toto"]} />
       </React.Fragment>
     );
   }

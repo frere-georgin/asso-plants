@@ -95,6 +95,7 @@ class AutoComplete extends React.Component {
           renderSuggestion={this.renderSuggestion}
           inputProps={inputProps}
         />
+        <div className="auto-complete__search-icon" />
       </div>
     );
   }
