@@ -74,9 +74,12 @@ class AutoComplete extends React.Component {
   render() {
     const { value, suggestions } = this.state;
 
+    const data = this.props.data;
+
+    // console.log(JSON.parse(data));
     // Autosuggest will pass through all these props to the input.
     const inputProps = {
-      placeholder: "Type a programming language",
+      placeholder: "Trouver une plante de potager...",
       value,
       onChange: this.onChange
     };
@@ -85,7 +88,7 @@ class AutoComplete extends React.Component {
     return (
       <div className="auto-complete">
         <Autosuggest
-          suggestions={suggestions}
+          suggestions={data}
           onSuggestionsFetchRequested={this.onSuggestionsFetchRequested}
           onSuggestionsClearRequested={this.onSuggestionsClearRequested}
           getSuggestionValue={getSuggestionValue}

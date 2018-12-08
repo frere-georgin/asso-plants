@@ -1,15 +1,7 @@
 import Page from "../layouts/main";
 import { Link } from "../routes";
-export default class Vegetable extends React.Component {
-  static async getInitialProps({ query }) {
-    console.log("QUERY", query);
-    // query.slug
-    return "blue";
-  }
+export default class Vegetables extends React.Component {
   render() {
-    const { slug } = this.props.url.query;
-
-    console.log("props", slug);
     return (
       <Page>
         vegetable
@@ -27,7 +19,6 @@ export default class Vegetable extends React.Component {
             <a>Viande</a>
           </Link>
         </div>
-        Legume : {slug && <div>{slug}</div>}
       </Page>
     );
   }
