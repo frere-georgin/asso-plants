@@ -1,12 +1,9 @@
-import Header from "../components/Header";
-import TitleDescription from "../components/TitleDescription";
-import GroundType from "../components/GroundType";
+import Nav from "../components/Nav";
+import "../css/main.scss";
 
 export default ({ children }) => (
-  <div>
-    <Header />
-    {/*<TitleDescription plantName={"Nom"} plantDesc={"Description"} plantWiki={""} />*/}
-    <GroundType groundTypes={["clay", "sand"]} />
+  <div className="screen-size">
+    <Nav />
     {children}
   </div>
 );
