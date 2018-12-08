@@ -1,4 +1,5 @@
 import Autosuggest from "react-autosuggest";
+import Router from "next/router";
 
 // When suggestion is clicked, Autosuggest needs to populate the input
 // based on the clicked suggestion. Teach Autosuggest how to calculate the
@@ -37,8 +38,23 @@ class AutoComplete extends React.Component {
 
   getSuggestionValue = suggestion => suggestion.name;
 
+  handleClick = name => {
+    Router.push(`/vegetable/${name.toLowerCase()}`);
+  };
+
   // Use your imagination to render suggestions.
-  renderSuggestion = suggestion => <div>{suggestion.name}</div>;
+  renderSuggestion = suggestion => (
+    <div
+      onClick={() => {
+        this.handleClick(suggestion.name);
+      }}
+    >
+      {suggestion.name}
+      <span className="suggestion__right">
+        {suggestion.friends.length + suggestion.friends.length} associations
+      </span>
+    </div>
+  );
 
   // Autosuggest will call this function every time you need to update suggestions.
   // You already implemented this logic above, so just use it.
