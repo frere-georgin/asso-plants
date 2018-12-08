@@ -14,6 +14,18 @@
     "/landing": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
+    ],
+    "/about": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/sources": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/contribute": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ]
   }
 }
