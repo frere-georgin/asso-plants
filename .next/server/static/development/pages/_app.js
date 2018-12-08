@@ -112,7 +112,7 @@ module.exports = __webpack_require__(/*! next/app */ "next/app")
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/wemiced/dev/asso-plants/node_modules/next/dist/pages/_app.js */"./node_modules/next/dist/pages/_app.js");
+module.exports = __webpack_require__(/*! /home/loic/dev/work/asso-plants/node_modules/next/dist/pages/_app.js */"./node_modules/next/dist/pages/_app.js");
 
 
 /***/ }),
