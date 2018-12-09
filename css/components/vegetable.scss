@@ -1,13 +1,22 @@
 .vegetable {
-  padding: 60px;
+  padding: 30px 60px 60px 60px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+
+.vegetable__illustration {
+  width: 300px;
 }
 
 .vegetable__column {
-  width: 33%;
+  width: 33.33%;
+  &:not(:first-child):not(:last-child) {
+    padding: 0 40px;
+  }
 }
 
 .vegetable__column--centered {
   align-self: center;
+  justify-self: center;
 }

@@ -1,13 +1,19 @@
 import LinearIcon from "./LinearIcon";
 
 const RecolteSemis = props => (
-  <section>
-    <h3>
-      <LinearIcon name="calendar-full" />Semi
-    </h3>
-    <p>{props.sowing_date}</p>
-    <h3>Recolte</h3>
-    <p>{props.harvest_date}</p>
+  <section className="recolte-semis">
+    <div className="recolte-semis__column">
+      <h3 className="recolte-semis__title">
+        <LinearIcon name="calendar-full" /> Semi
+      </h3>
+      <p className="recolte-semis__info">{props.sowingDate}</p>
+    </div>
+    <div className="recolte-semis__column">
+      <h3 className="recolte-semis__title">
+        <LinearIcon name="calendar-full" /> Recolte
+      </h3>
+      <p className="recolte-semis__info">{props.harvestDate}</p>
+    </div>
   </section>
 );
 

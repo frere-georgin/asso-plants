@@ -1,11 +1,11 @@
 import Page from "../layouts/main";
-import Vegetable1 from "../components/Vegetable";
 
 // vegetable Component
 import Illustration from "../components/Illustration";
 import TitleDescription from "../components/TitleDescription";
 import GroundType from "../components/GroundType";
 import InfoNutrition from "../components/InfoNutrition";
+import RecolteSemis from "../components/RecolteSemis";
 import { Link } from "../routes";
 import Relationship from "../components/Relationship";
 
@@ -25,17 +25,24 @@ const Vegetable = props => {
     <Page>
       <div className="vegetable">
         <div className="vegetable__column vegetable__column--centered">
-          <Illustration name="vegetables/laitue" />
-        </div>
-        <div className="vegetable__column">
+          <Illustration
+            className="vegetable__illustration"
+            name={`vegetables/${vegetable.name}`}
+          />
           <TitleDescription
             title={vegetable.name}
             description={vegetable.desc}
           />
-          <InfoNutrition />
         </div>
         <div className="vegetable__column">
-          <GroundType groundTypes={["argile", "sable", "terreau"]} />
+          <RecolteSemis
+            sowingDate={vegetable.sowing_date}
+            harvestDate={vegetable.harvest_date}
+          />
+          <InfoNutrition info={vegetable} />
+        </div>
+        <div className="vegetable__column">
+          <GroundType groundTypes={vegetable.ground_type} />
           <Relationship relations={vegetable} />
         </div>
       </div>

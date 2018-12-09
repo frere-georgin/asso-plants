@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Illustration from "./Illustration";
+import LinearIcon from "./LinearIcon";
 
 export default ({ relations }) => {
   if (!(relations && relations.friends && relations.enemies)) {
@@ -25,9 +26,13 @@ export default ({ relations }) => {
     ));
     return (
       <div className="relationship">
-        <h3 className="relationship__title">amis</h3>
+        <h3 className="relationship__title">
+          <LinearIcon name="smile" /> Amis
+        </h3>
         <ul className="relationship__list">{friends}</ul>
-        <h3 className="relationship__title">enemis</h3>
+        <h3 className="relationship__title">
+          <LinearIcon name="sad" /> Ennemis
+        </h3>
         <ul className="relationship__list">{enemies}</ul>
       </div>
     );

@@ -1,14 +1,22 @@
 .relationship {
 }
 
+.relationship__title {
+  margin-bottom: 10px;
+}
+
 .relationship__list {
   list-style-type: none;
   padding: 0;
   display: flex;
   flex-direction: row;
+  flex-flow: wrap;
+  width: 100%;
 }
 
 .relationship__list__item {
+  display: inline-block;
+  width: 16.666666%;
 }
 
 .relationship__list__item__image {

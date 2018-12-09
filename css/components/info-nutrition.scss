@@ -6,10 +6,28 @@
   list-style-type: none;
 }
 
+.info-nutrition__title {
+  margin: 0;
+}
+
+.info-nutrition__sub-title {
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
 .info-nutrition__list__item {
   margin-bottom: 0;
   font-size: 1.4rem;
 }
 
-.info-nutrition__column {
+.info-nutrition__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-nutrition__wrapper__column {
+  width: 40%;
+  &:first-child {
+    margin-right: 20px;
+  }
 }

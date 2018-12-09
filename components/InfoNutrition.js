@@ -1,7 +1,11 @@
+import LinearIcon from "./LinearIcon";
+
 const InfoNutrition = props => (
   <section className="info-nutrition">
-    <h3>Valeurs nutritionelles</h3>
-    <h5>pour 100 grammes</h5>
+    <h3 className="info-nutrition__title">
+      <LinearIcon name="clipboard-empty" /> Valeurs nutritionelles
+    </h3>
+    <h5 className="info-nutrition__sub-title">pour 100 grammes</h5>
 
     <ul className="info-nutrition__list">
       <li className="info-nutrition__list__item">
@@ -38,7 +42,7 @@ const InfoNutrition = props => (
     </ul>
 
     <div className="info-nutrition__wrapper">
-      <ul className="info-nutrition__list info-nutrition__list">
+      <ul className="info-nutrition__list info-nutrition__wrapper__column">
         <li className="info-nutrition__list__item">
           <b>Vitamine A</b> 7 405 IU
         </li>
@@ -53,7 +57,7 @@ const InfoNutrition = props => (
         </li>
       </ul>
 
-      <ul className="info-nutrition__list">
+      <ul className="info-nutrition__list info-nutrition__wrapper__column">
         <li className="info-nutrition__list__item">
           <b>Vitamine C</b> 9.2mg
         </li>

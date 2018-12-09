@@ -16,8 +16,7 @@ class GroundType extends React.Component {
     return (
       <section className="ground-type">
         <h3>
-          <LinearIcon name="user" />
-          Type de sol
+          <LinearIcon name="landscape" /> Type de sol
         </h3>
         <ul className="ground-type__list">{array}</ul>
       </section>
