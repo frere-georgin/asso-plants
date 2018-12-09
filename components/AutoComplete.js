@@ -103,7 +103,7 @@ class AutoComplete extends React.Component {
         />
         <div className="auto-complete__search">
           <Illustration
-            name="magnifyingglass"
+            name="/static/img/magnifyingglass.svg"
             className="auto-complete__search__icon"
           />
         </div>

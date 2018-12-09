@@ -56,6 +56,7 @@ class Vegetable extends React.Component {
             <TitleDescription
               title={vegetable.name}
               description={vegetable.desc}
+              wikiUrl={vegetable.wikiUrl}
             />
           </div>
           <div className="vegetable__column">
