@@ -2,6 +2,7 @@
   "plants": [
     {
       "name": "Ail",
+      "slug": "ail",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -19,6 +20,7 @@
     },
     {
       "name": "Aneth",
+      "slug": "aneth",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -29,6 +31,7 @@
     },
     {
       "name": "Artichaut",
+      "slug": "artichaut",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -39,6 +42,7 @@
     },
     {
       "name": "Asperge",
+      "slug": "asperge",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -60,6 +64,7 @@
     },
     {
       "name": "Aubergine",
+      "slug": "aubergine",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -70,6 +75,7 @@
     },
     {
       "name": "Bette",
+      "slug": "bette",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -80,6 +86,7 @@
     },
     {
       "name": "Betterave",
+      "slug": "betterave",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -98,6 +105,7 @@
     },
     {
       "name": "Carotte",
+      "slug": "carotte",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -119,6 +127,7 @@
     },
     {
       "name": "Céleri",
+      "slug": "celeri",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -129,6 +138,7 @@
     },
     {
       "name": "Cerfeuil",
+      "slug": "cerfeuil",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -139,6 +149,7 @@
     },
     {
       "name": "Chou",
+      "slug": "chou",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -160,6 +171,7 @@
     },
     {
       "name": "Ciboulette",
+      "slug": "ciboulette",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -170,6 +182,7 @@
     },
     {
       "name": "Concombre",
+      "slug": "concombre",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -189,6 +202,7 @@
     },
     {
       "name": "Courge",
+      "slug": "courge",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -199,6 +213,7 @@
     },
     {
       "name": "Potiron",
+      "slug": "potiron",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -209,6 +224,7 @@
     },
     {
       "name": "Courgette",
+      "slug": "courgette",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -219,6 +235,7 @@
     },
     {
       "name": "Epinard",
+      "slug": "epinard",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -237,6 +254,7 @@
     },
     {
       "name": "Fenouil",
+      "slug": "fenouil",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -247,6 +265,7 @@
     },
     {
       "name": "Feve",
+      "slug": "feve",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -257,6 +276,7 @@
     },
     {
       "name": "Fraisier",
+      "slug": "fraisier",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -267,6 +287,7 @@
     },
     {
       "name": "Haricot",
+      "slug": "haricot",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -291,6 +312,7 @@
     },
     {
       "name": "Laitue",
+      "slug": "laitue",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -315,6 +337,7 @@
     },
     {
       "name": "Mache",
+      "slug": "mache",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -325,6 +348,7 @@
     },
     {
       "name": "Mais",
+      "slug": "mais",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -342,6 +366,7 @@
     },
     {
       "name": "Navet",
+      "slug": "navet",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -361,6 +386,7 @@
     },
     {
       "name": "Oignon",
+      "slug": "oignon",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -382,6 +408,7 @@
     },
     {
       "name": "Persil",
+      "slug": "persil",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -392,6 +419,7 @@
     },
     {
       "name": "Poireau",
+      "slug": "poireau",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -410,6 +438,7 @@
     },
     {
       "name": "Pois",
+      "slug": "pois",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -431,6 +460,7 @@
     },
     {
       "name": "Pomme de terre",
+      "slug": "pomme_de_terre",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -441,6 +471,7 @@
     },
     {
       "name": "Radis",
+      "slug": "radis",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -463,6 +494,7 @@
     },
     {
       "name": "Raifort",
+      "slug": "raifort",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",
@@ -473,6 +505,7 @@
     },
     {
       "name": "Tomate",
+      "slug": "tomate",
       "ground_type": ["argile", "sable", "normal"],
       "sowing_date": "1er janvier",
       "harvest_date": "12 decembre",

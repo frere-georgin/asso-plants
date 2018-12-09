@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import Carousel from "../components/Carousel";
 import { Link } from "../routes";
 
-const Landing = () => (
+const Landing = ({ vegetables }) => (
   <Page>
     <div className="home">
       <div className="home__column">
@@ -18,5 +18,12 @@ const Landing = () => (
     </div>
   </Page>
 );
+
+Landing.getInitialProps = async ({ req }) => {
+  const res = await import("../static/association.json");
+  // const json = await res.json();
+  //console.log("JSON", res);
+  return { vegetables: res.plants };
+};
 
 export default Landing;
