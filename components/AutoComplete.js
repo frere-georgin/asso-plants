@@ -54,6 +54,7 @@ class AutoComplete extends React.Component {
       <Illustration
         className="suggestion__illustration"
         name={`vegetables/${suggestion.name.toLowerCase()}`}
+        src={suggestion.img}
       />
       <span className="suggestion__name">{suggestion.name}</span>
       <span className="suggestion__right">

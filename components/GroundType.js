@@ -9,6 +9,7 @@ class GroundType extends React.Component {
           <Illustration
             className="ground-type__list__item__image"
             name={groundType}
+            src={`/static/img/${groundType}.svg`}
           />
           <span className="ground-type__list__item__text">{groundType}</span>
         </li>
