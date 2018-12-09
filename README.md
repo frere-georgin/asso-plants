@@ -26,12 +26,18 @@ blette, aneth, cerfeuil
 
 - Wikipedia FR
 
+### Compo nutrition
+
+- http://www.aprifel.com/fiche-nutri-produit-composition-ail,100.html
+
 ### Date de semi / Recole
 
+- https://www.jardiner-malin.fr/fiche/calendrier-semis-recolte-potager.html
 - https://www.rustica.fr/articles-jardin/calendrier-semis-recoltes-potager,5196.html
 
 ### Types de sols
 
+- https://www.aujardin.info/fiches/terres.php
 - http://www.fermebedardblouin.com/a-chaque-type-sol-ses-legumes-conseil,9,19,42
 
 ### Types de sols
