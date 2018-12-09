@@ -1,13 +1,15 @@
 import LinearIcon from "./LinearIcon";
+import Illustration from "./Illustration";
 
 class GroundType extends React.Component {
   render() {
     const array = this.props.groundTypes.map(groundType => {
-      const src = `../static/img/${groundType}.svg`;
-
       return (
         <li className="ground-type__list__item" key={groundType}>
-          <img className="ground-type__list__item__image" src={src} />
+          <Illustration
+            className="ground-type__list__item__image"
+            name={groundType}
+          />
           <span className="ground-type__list__item__text">{groundType}</span>
         </li>
       );

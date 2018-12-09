@@ -27,11 +27,13 @@ export default ({ relations }) => {
     return (
       <div className="relationship">
         <h3 className="relationship__title">
-          <LinearIcon name="smile" /> Amis
+          <LinearIcon name="smile" /> Amis{" "}
+          <span className="relationship__title__info">{friends.length}</span>
         </h3>
         <ul className="relationship__list">{friends}</ul>
         <h3 className="relationship__title">
-          <LinearIcon name="sad" /> Ennemis
+          <LinearIcon name="sad" /> Ennemis{" "}
+          <span className="relationship__title__info">{enemies.length}</span>
         </h3>
         <ul className="relationship__list">{enemies}</ul>
       </div>

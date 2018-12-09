@@ -28,6 +28,7 @@ const Vegetable = props => {
           <Illustration
             className="vegetable__illustration"
             name={`vegetables/${vegetable.name}`}
+            size="300"
           />
           <TitleDescription
             title={vegetable.name}

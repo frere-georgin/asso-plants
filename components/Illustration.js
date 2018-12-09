@@ -1,14 +1,16 @@
 class Illustration extends React.Component {
   render() {
     const props = this.props;
-    const className = `${props.className || ""} illustration illustration--${
-      props.name
-    }`;
+    const className = `${props.className || ""} illustration`;
     const src = `/static/img/${props.name}.svg`;
-    const size = `${props.size}px`;
 
     return (
-      <img {...props} src={src} style={{ width: size }} className={className} />
+      <React.Fragment>
+        <div className={className}>
+          <img {...props} src={src} className="illustration__img" />
+          <div className="illustration__ground-shadow" />
+        </div>
+      </React.Fragment>
     );
   }
 }

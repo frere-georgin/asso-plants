@@ -18,6 +18,10 @@
 .info-nutrition__list__item {
   margin-bottom: 0;
   font-size: 1.4rem;
+  b {
+    display: inline-block;
+    width: 130px;
+  }
 }
 
 .info-nutrition__wrapper {
@@ -26,7 +30,7 @@
 }
 
 .info-nutrition__wrapper__column {
-  width: 40%;
+  width: 50%;
   &:first-child {
     margin-right: 20px;
   }
