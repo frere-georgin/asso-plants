@@ -3,15 +3,14 @@ import Illustration from "./Illustration";
 
 class GroundType extends React.Component {
   render() {
-    const array = this.props.groundTypes.map(groundType => {
+    const array = this.props.ground.type.map(elem => {
       return (
-        <li className="ground-type__list__item" key={groundType}>
+        <li className="ground-type__list__item" key={elem.title}>
           <Illustration
             className="ground-type__list__item__image"
-            name={groundType}
-            src={`/static/img/${groundType}.svg`}
+            src={elem.img}
           />
-          <span className="ground-type__list__item__text">{groundType}</span>
+          <span className="ground-type__list__item__text">{elem.title}</span>
         </li>
       );
     });

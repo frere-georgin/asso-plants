@@ -41,8 +41,7 @@ class Vegetable extends React.Component {
       };
     });
 
-    console.log("Enemies", enemies);
-
+    console.log(vegetable);
     return (
       <Page>
         <div className="vegetable">
@@ -51,7 +50,6 @@ class Vegetable extends React.Component {
               className="vegetable__illustration"
               name={`vegetables/${vegetable.name}`}
               src={vegetable.img}
-              size="300"
             />
             <TitleDescription
               title={vegetable.name}
@@ -60,15 +58,12 @@ class Vegetable extends React.Component {
             />
           </div>
           <div className="vegetable__column">
-            <RecolteSemis
-              sowingDate={vegetable.sowing_date}
-              harvestDate={vegetable.harvest_date}
-            />
+            <RecolteSemis vegetable={vegetable} />
             <InfoNutrition info={vegetable} />
           </div>
           <div className="vegetable__column">
-            <GroundType groundTypes={vegetable.ground_type} />
-            <Relationship relations={{ friends, enemies }} />
+            <GroundType ground={vegetable.ground} />
+            <Relationship type="big" relations={{ friends, enemies }} />
           </div>
         </div>
       </Page>

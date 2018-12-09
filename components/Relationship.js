@@ -12,7 +12,7 @@ class Relationship extends React.Component {
     return list.map(item => (
       <li
         className="relationship__list__item"
-        key={item}
+        key={item.slug}
         onClick={() => this.goToVegetable(item.slug)}
       >
         <Illustration

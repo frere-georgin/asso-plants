@@ -3,11 +3,52 @@
     {
       "name": "Ail",
       "slug": "ail",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "23/12"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/ail.svg",
-      "wikiUrl": "https://wikipedia.fr/ail",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/ail",
       "desc":
         "L'ail, ail commun ou ail cultivé est une espèce de plante potagère vivace monocotylédone dont les bulbes, à l'odeur et au goût forts, sont souvent employés comme condiment en cuisine",
       "friends": [
@@ -23,11 +64,52 @@
     {
       "name": "Aneth",
       "slug": "aneth",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/aneth.svg",
-      "wikiUrl": "https://wikipedia.fr/aneth",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/aneth",
       "desc":
         "L'aneth est une plante de la famille des Apiacées. Nom scientifique : Anethum graveolens L., famille des Apiacées, genre Anethum. ",
       "friends": [],
@@ -36,11 +118,52 @@
     {
       "name": "Artichaut",
       "slug": "artichaut",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/artichaut.svg",
-      "wikiUrl": "https://wikipedia.fr/artichaut",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/artichaut",
       "desc":
         "L’artichaut est une plante dicotylédone de la famille des Astéracées appartenant au genre Cynara.",
       "friends": ["Haricot", "Laitue", "Oignon", "Pois", "Radis"],
@@ -49,11 +172,52 @@
     {
       "name": "Asperge",
       "slug": "asperge",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/asperge.svg",
-      "wikiUrl": "https://wikipedia.fr/asperge",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/asperge",
       "desc":
         "L'asperge est une plante de la famille des Asparagaceae originaire de l'est du bassin méditerranéen. Connue des Romains, elle est cultivée comme plante potagère en France depuis le XVᵉ siècle.",
       "friends": [
@@ -73,11 +237,52 @@
     {
       "name": "Aubergine",
       "slug": "aubergine",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/aubergine.svg",
-      "wikiUrl": "https://wikipedia.fr/aubergine",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/aubergine",
       "desc":
         "L’aubergine est une plante potagère annuelle de la famille des Solanacées, cultivée pour son fruit consommé comme légume. Le terme désigne aussi ce légume.",
       "friends": ["Haricot"],
@@ -86,11 +291,52 @@
     {
       "name": "Bette",
       "slug": "bette",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/bette.svg",
-      "wikiUrl": "https://wikipedia.fr/bette",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/bette",
       "desc":
         "La « bette » ou « blette » est le nom vernaculaire d’une plante potagère comestible, appelée aussi (selon les variétés ou les régions) « poirée », « jotte » ou « betterave sauvage », une herbacée dicotylédone dans la sous-famille des Chénopodiacées parmi les Amaranthacées, hermaphrodite et endémique dans ses variétés sauvages des régions maritimes ouest-européennes et méditerranéennes",
       "friends": ["Carotte"],
@@ -99,11 +345,52 @@
     {
       "name": "Betterave",
       "slug": "betterave",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/betterave.svg",
-      "wikiUrl": "https://wikipedia.fr/betterave",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/betterave",
       "desc":
         "La betterave, Beta vulgaris subsp. vulgaris, est une sous-espèce de plantes de la famille des Amaranthaceae, cultivées pour leurs racines charnues, et utilisées comme légume dans l'alimentation humaine",
       "friends": [
@@ -120,11 +407,52 @@
     {
       "name": "Carotte",
       "slug": "carotte",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/carotte.svg",
-      "wikiUrl": "https://wikipedia.fr/carotte",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/carotte",
       "desc":
         "Daucus carota est une espèce de plantes à fleurs dicotylédones de la famille des Apiaceae, originaire des régions tempérées de l'Ancien monde. Les carottes cultivées appartiennent à la sous-espèce, Daucus carota subsp. sativus.",
       "friends": [
@@ -144,11 +472,52 @@
     {
       "name": "Céleri",
       "slug": "celeri",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/celeri.svg",
-      "wikiUrl": "https://wikipedia.fr/celeri",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/celeri",
       "desc":
         "Le céleri ou ache des marais, persil des marais ou encore cèleri, est une plante herbacée bisannuelle de la famille des Apiacées, cultivée comme plante potagère pour ses feuilles et sa racine tubérisée consommées comme légumes.",
       "friends": ["Chou", "Poireau", "Radis", "Tomate"],
@@ -157,11 +526,52 @@
     {
       "name": "Cerfeuil",
       "slug": "cerfeuil",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/cerfeuil.svg",
-      "wikiUrl": "https://wikipedia.fr/cerfeuil",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/cerfeuil",
       "desc":
         "Le Cerfeuil commun est une plante herbacée de la famille des Apiacées, probablement originaire de Russie, cultivée comme plante condimentaire pour ses feuilles au goût légèrement anisé.",
       "friends": ["Radis"],
@@ -170,11 +580,52 @@
     {
       "name": "Chou",
       "slug": "chou",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/chou.svg",
-      "wikiUrl": "https://wikipedia.fr/chou",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/chou",
       "desc":
         "Le chou est une espèce de plantes de la famille des Brassicacées, originaire du sud-ouest de l'Europe. Plantes généralement bisannuelles, leurs feuilles comestibles peuvent ou non former une tête compacte ou « pomme »",
       "friends": [
@@ -194,11 +645,52 @@
     {
       "name": "Ciboulette",
       "slug": "ciboulette",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/ciboulette.svg",
-      "wikiUrl": "https://wikipedia.fr/ciboulette",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/ciboulette",
       "desc":
         "La ciboulette ou civette est une plante aromatique de la famille des Amaryllidacées, cultivée pour ses feuilles souvent utilisées comme condiment. ",
       "friends": ["Carotte"],
@@ -207,11 +699,52 @@
     {
       "name": "Concombre",
       "slug": "concombre",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/concombre.svg",
-      "wikiUrl": "https://wikipedia.fr/concombre",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/concombre",
       "desc":
         "Le concombre est une plante potagère herbacée, rampante, de la même famille que la calebasse africaine, le melon ou la courge, il est consommé comme légume.",
       "friends": [
@@ -229,11 +762,52 @@
     {
       "name": "Courge",
       "slug": "courge",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/courge.svg",
-      "wikiUrl": "https://wikipedia.fr/courge",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/courge",
       "desc":
         "Le terme courge, ou plus rarement cougourde, désigne plusieurs espèces de plantes de la famille des cucurbitacées. Elles sont généralement cultivées pour leurs fruits comestibles mais il arrive qu'elles le soient pour leurs graines oléagineuses",
       "friends": ["Haricot", "Laitue", "Mais", "Navet"],
@@ -242,11 +816,52 @@
     {
       "name": "Potiron",
       "slug": "potiron",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/potiron.svg",
-      "wikiUrl": "https://wikipedia.fr/potiron",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/potiron",
       "desc":
         "Le potiron est une plante de la famille des Cucurbitacées originaire des régions tropicales d'Amérique du Sud. Le potiron est largement cultivé comme plante potagère pour son fruit comestible à maturité",
       "friends": ["Haricot", "Laitue", "Mais", "Navet"],
@@ -255,11 +870,52 @@
     {
       "name": "Courgette",
       "slug": "courgette",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/courgette.svg",
-      "wikiUrl": "https://wikipedia.fr/courgette",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/courgette",
       "desc":
         "La courgette est une plante de la famille des Cucurbitaceae, c'est aussi le fruit comestible de cette plante. Outre le fruit qui est un légume courant en été, la fleur de courgette est aussi utilisée en cuisine",
       "friends": ["Haricot", "Laitue", "Mais", "Navet"],
@@ -268,11 +924,52 @@
     {
       "name": "Epinard",
       "slug": "epinard",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/epinard.svg",
-      "wikiUrl": "https://wikipedia.fr/epinard",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/epinard",
       "desc":
         "L'épinard est une plante potagère, annuelle ou bisannuelle, de la famille des chénopodiacées. Originaire de l'Iran, il est aujourd'hui cultivé dans toutes les régions tempérées pour ses qualités nutritionnelles",
       "friends": [
@@ -289,11 +986,52 @@
     {
       "name": "Fenouil",
       "slug": "fenouil",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/fenouil.svg",
-      "wikiUrl": "https://wikipedia.fr/fenouil",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/fenouil",
       "desc":
         "Le fenouil commun (nom scientifique Foeniculum vulgare, syn. Foeniculum officinale) est une variété de fenouil, généralement vivace parfois bisannuelle, cultivée pour le renflement bulbeux et charnu de ses feuilles imbriquées les unes dans les autres utilisée en alimentation. ",
       "friends": [],
@@ -302,11 +1040,52 @@
     {
       "name": "Feve",
       "slug": "feve",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/feve.svg",
-      "wikiUrl": "https://wikipedia.fr/feve",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/feve",
       "desc":
         "Les fèves sont des plantes annuelles légumineuses de la famille des Fabaceae, sous-famille des Faboideae, tribu des Fabeae. Comme les féverolles, les fèves cultivées ont comme origine l'espèce botanique Vicia faba.",
       "friends": ["Pomme de terre"],
@@ -315,11 +1094,52 @@
     {
       "name": "Fraisier",
       "slug": "fraisier",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/fraisier.svg",
-      "wikiUrl": "https://wikipedia.fr/fraisier",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/fraisier",
       "desc":
         "Le fraisier cultivé (Fragaria ×ananassa), plus rarement appelé fraisier ananas, est une espèce hybride de fraisiers cultivée pour son fruit qui est la fraise de jardin. Ce fruit n'est en fait pas une baie au sens botanique, mais un faux-fruit.",
       "friends": ["Ail", "Oignon"],
@@ -328,11 +1148,52 @@
     {
       "name": "Haricot",
       "slug": "haricot",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/haricot.svg",
-      "wikiUrl": "https://wikipedia.fr/haricot",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/haricot",
       "desc":
         "Le Haricot, ou Haricot commun (Phaseolus vulgaris L.), est une espèce de plantes annuelles de la famille des Fabaceae (Papilionacées), du genre Phaseolus, couramment cultivée comme légume. On en consomme soit le fruit (la gousse), haricot vert ou « mange-tout », soit les graines, riches en protéines. Le terme « haricot » désigne aussi ces parties consommées, les graines (haricots secs) ou les gousses.",
       "friends": [
@@ -355,11 +1216,52 @@
     {
       "name": "Laitue",
       "slug": "laitue",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/laitue.svg",
-      "wikiUrl": "https://wikipedia.fr/laitue",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/laitue",
       "desc":
         "Les laitues, au sens botanique du terme, sont un genre de plantes annuelles de la famille des Astéracées dont certaines espèces sont cultivées pour leurs feuilles tendres consommées comme salade verte. ",
       "friends": [
@@ -382,11 +1284,52 @@
     {
       "name": "Mache",
       "slug": "mache",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/laitue.svg",
-      "wikiUrl": "https://wikipedia.fr/mache",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/mache",
       "desc":
         "La mâche (Valerianella locusta), aussi appelée blanchette, boursette, clairette, raiponce, oreillette ou oreille-de-lièvre, valérianelle, valérianelle cultivée, herbe des chanoines, en Belgique, salade de blé, dans le midi de la France, doulcéta, doucette, gallinette, ou en Savoie et en Suisse romande, rampon, ramponnet, est une petite plante herbacée annuelle de la famille des Caprifoliaceae, originaire de l’Afrique, de l’Amérique du Nord et de l’Eurasie.",
       "friends": ["Poireau", "Tomate"],
@@ -395,11 +1338,52 @@
     {
       "name": "Mais",
       "slug": "mais",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/mais.svg",
-      "wikiUrl": "https://wikipedia.fr/mais",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/mais",
       "desc":
         "Le maïs, ou blé d’Inde au Canada, est une plante herbacée tropicale annuelle de la famille des Poacées, largement cultivée comme céréale pour ses grains riches en amidon, mais aussi comme plante fourragère.",
       "friends": [
@@ -415,11 +1399,52 @@
     {
       "name": "Navet",
       "slug": "navet",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/navet.svg",
-      "wikiUrl": "https://wikipedia.fr/navet",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/navet",
       "desc":
         "Le navet, Brassica rapa L. subsp. rapa, est une plante herbacée de la famille des Brassicacées, cultivée comme plante potagère pour sa racine charnue allongée ou arrondie, consommée comme légume.",
       "friends": [
@@ -437,11 +1462,52 @@
     {
       "name": "Oignon",
       "slug": "oignon",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/oignon.svg",
-      "wikiUrl": "https://wikipedia.fr/oignon",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/oignon",
       "desc":
         "L’oignon, ou ognon, prononcé /ɔ.ɲɔ̃/, est une espèce de plante herbacée bisannuelle de la famille des Amaryllidaceae, largement et depuis longtemps cultivée comme plante potagère pour ses bulbes de saveur et d'odeur fortes et/ou pour ses feuilles.",
       "friends": [
@@ -461,11 +1527,52 @@
     {
       "name": "Persil",
       "slug": "persil",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/persil.svg",
-      "wikiUrl": "https://wikipedia.fr/persil",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/persil",
       "desc":
         "e persil est une espèce de plante herbacée de la famille des Apiacées et du genre Petroselinum. Le persil est couramment utilisé en cuisine pour ses feuilles très divisées, et en Europe centrale pour sa racine pivot.",
       "friends": ["Asperge", "Tomate"],
@@ -474,11 +1581,52 @@
     {
       "name": "Poireau",
       "slug": "poireau",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/poireau.svg",
-      "wikiUrl": "https://wikipedia.fr/poireau",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/poireau",
       "desc": "blabla bla blabla blalblalbla dsq dqs dqsdzaefdrgfd ",
       "friends": [
         "Carotte",
@@ -494,11 +1642,52 @@
     {
       "name": "Pois",
       "slug": "pois",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/pois.svg",
-      "wikiUrl": "https://wikipedia.fr/pois",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/pois",
       "desc":
         "Le Pois cultivé est une espèce de plante annuelle de la famille des légumineuses, largement cultivée pour ses graines, consommée comme légume ou utilisée comme aliment du bétail. ",
       "friends": [
@@ -518,11 +1707,52 @@
     {
       "name": "Pomme de terre",
       "slug": "pomme_de_terre",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/patate.svg",
-      "wikiUrl": "https://wikipedia.fr/pomme_de_terre",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/pomme_de_terre",
       "desc":
         "La pomme de terre, ou patate, est un tubercule comestible produit par l’espèce Solanum tuberosum, appartenant à la famille des solanacées.",
       "friends": ["Chou", "Feve", "Haricot", "Pois", "Radis", "Raifort"],
@@ -531,11 +1761,52 @@
     {
       "name": "Radis",
       "slug": "radis",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/radis.svg",
-      "wikiUrl": "https://wikipedia.fr/radis",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/radis",
       "desc":
         "Le radis, Raphanus sativus, dit « ravanet » en provençal, est une plante potagère bisannuelle, de la famille des Brassicacées, cultivée pour son hypocotyle charnu, consommé cru, comme légume. Le terme désigne aussi le légume. ",
       "friends": [
@@ -556,11 +1827,52 @@
     {
       "name": "Raifort",
       "slug": "raifort",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/raifort.svg",
-      "wikiUrl": "https://wikipedia.fr/raifort",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/raifort",
       "desc":
         "Le Raifort est une plante vivace de la famille des Brassicacées, cultivée pour sa racine à usage condimentaire. Noms scientifiques : Armoracia rusticana G. Gaertn. et al., famille des Brassicacées, sous-famille des Brassicoideae.",
       "friends": ["Pomme de terre"],
@@ -569,11 +1881,52 @@
     {
       "name": "Tomate",
       "slug": "tomate",
-      "ground_type": ["argile", "sable", "terreau"],
-      "sowing_date": "1er janvier",
-      "harvest_date": "12 decembre",
+
+      "sowing_range": ["01/01", "01/04"],
+      "harvest_range": ["01/06", "01/10"],
+      "ground": {
+        "type": [
+          {
+            "title": "Humifère",
+            "img": "/static/img/terreau.svg"
+          },
+          {
+            "title": "Argileux",
+            "img": "/static/img/argile.svg"
+          },
+          {
+            "title": "Sableux",
+            "img": "/static/img/sable.svg"
+          },
+          {
+            "title": "Calcaire",
+            "img": "/static/img/argile.svg"
+          }
+        ],
+        "desc":
+          "La plante aime les sols légers, profonds, riches en éléments nutritifs anciens et bien drainés. Les bulbes d'ail pourrissent dans les sols lourds et glaiseux, surtout s'ils restent humides. Il ne faut pas cultiver dans les sols organiques ni utiliser de fumiers frais, cela les fait pourrir."
+      },
+      "composition": {
+        "Calories": "15",
+        "Lipides": "0.2mg",
+        "Cholestérol": "Omg",
+        "Sodium": "28mg",
+        "Potassium": "194mg",
+        "Glucides": "2.9g",
+        "Fibres alimentaires": "1.3mg",
+        "Sucres": "0.8mg",
+        "Protéines": "1.4mg",
+        "Vitamine A": "7 405 IU",
+        "Calcium": "36mg",
+        "Vitamine D": "0 IU",
+        "Vitamine B₁₂": "0 µg",
+        "Vitamine C": "9.2mg",
+        "Fer": "0.9mg",
+        "Vitamine B6": "0.1mg",
+        "Magnésium": "13mg"
+      },
       "img": "/static/img/vegetables/tomate.svg",
-      "wikiUrl": "https://wikipedia.fr/tomate",
+      "wikiUrl": "http://fr.wikipedia.org/wiki/tomate",
       "desc":
         "La tomate (Solanum lycopersicum L.) est une espèce de plantes herbacées de la famille des Solanacées, originaire du Nord-Ouest de l'Amérique du Sud, largement cultivée pour son fruit.",
       "friends": [

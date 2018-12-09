@@ -5,14 +5,26 @@
 
 .recolte-semis__column {
   width: 50%;
+  position: relative;
 }
 
 .recolte-semis__title {
   margin-bottom: 10px;
+  position: relative;
 }
 
 .recolte-semis__info {
   font-size: 1.6rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.8);
+}
+
+.recolte-semis__title__now {
+  position: absolute;
+  top: 0;
+  right: -20px;
+  border-radius: 10px;
+  width: 10px;
+  height: 10px;
+  background: orange;
 }

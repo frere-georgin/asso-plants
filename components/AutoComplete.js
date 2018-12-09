@@ -1,6 +1,10 @@
 import Autosuggest from "react-autosuggest";
 import Router from "next/router";
 import Illustration from "./Illustration";
+import RecolteSemis from "./RecolteSemis";
+import GroundType from "./GroundType";
+import Relationship from "./Relationship";
+import LinearIcon from "./LinearIcon";
 
 // When suggestion is clicked, Autosuggest needs to populate the input
 // based on the clicked suggestion. Teach Autosuggest how to calculate the
@@ -47,18 +51,48 @@ class AutoComplete extends React.Component {
   renderSuggestion = suggestion => (
     <div
       className="suggestion"
+      key={suggestion.name}
       onClick={() => {
-        this.handleClick(suggestion.name);
+        this.handleClick(suggestion.slug);
       }}
     >
-      <Illustration
-        className="suggestion__illustration"
-        name={`vegetables/${suggestion.name.toLowerCase()}`}
-        src={suggestion.img}
-      />
+      <Illustration className="suggestion__illustration" src={suggestion.img} />
       <span className="suggestion__name">{suggestion.name}</span>
-      <span className="suggestion__right">
-        {suggestion.friends.length + suggestion.friends.length} associations
+      <span className="suggestion__name">
+        <h3>
+          Semis
+          {suggestion.hasToSow && <div className="recolte-semis__title__now" />}
+        </h3>
+        <div>
+          {suggestion.sowingStart} - {suggestion.sowingEnd}
+        </div>
+      </span>
+      <span className="suggestion__name">
+        <h3>
+          Recolte
+          {suggestion.hasToHarvest && (
+            <div className="recolte-semis__title__now" />
+          )}
+        </h3>
+        <div>
+          {suggestion.harvestStart} - {suggestion.harvestEnd}
+        </div>
+      </span>
+      <span className="suggestion__name">
+        <h3>Type de sol</h3>
+        <div>
+          {suggestion.ground.type.map(value => {
+            return <span>{value.title}</span>;
+          })}
+        </div>
+      </span>
+      <span className="suggestion__name">
+        <h3>Amis</h3>
+        <div>{suggestion.friends.length}</div>
+      </span>
+      <span className="suggestion__name">
+        <h3>Enemies</h3>
+        <div>{suggestion.enemies.length}</div>
       </span>
     </div>
   );
@@ -103,8 +137,8 @@ class AutoComplete extends React.Component {
           inputProps={inputProps}
         />
         <div className="auto-complete__search">
-          <Illustration
-            name="/static/img/magnifyingglass.svg"
+          <LinearIcon
+            name="magnifier"
             className="auto-complete__search__icon"
           />
         </div>

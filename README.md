@@ -18,13 +18,17 @@ https://sketch.cloud/s/1xglO
 
 ## [Sources](#SOURCES)
 
+illu manquantes
+
+blette, aneth, cerfeuil
+
 ### Description
 
-- Wikipedia
+- Wikipedia FR
 
 ### Date de semi / Recole
 
-- Wikipedia
+- https://www.rustica.fr/articles-jardin/calendrier-semis-recoltes-potager,5196.html
 
 ### Types de sols
 
