@@ -37,7 +37,7 @@ const InfoNutrition = props => (
       </li>
     </ul>
 
-    <div className="info-nutrition__column">
+    <div className="info-nutrition__wrapper">
       <ul className="info-nutrition__list info-nutrition__list">
         <li className="info-nutrition__list__item">
           <b>Vitamine A</b> 7 405 IU
