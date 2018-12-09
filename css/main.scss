@@ -32,6 +32,7 @@
 @import "components/title-description.scss";
 @import "components/ground-type.scss";
 @import "components/recolte-semis.scss";
+@import "components/illustration.scss";
 @import "components/info-nutrition.scss";
 @import "components/home.scss";
 @import "components/vegetable.scss";
@@ -39,11 +40,11 @@
 @import "components/auto-complete.scss";
 
 h3 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 0;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.3);
   font-weight: 500;
 }
 
