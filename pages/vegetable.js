@@ -25,16 +25,17 @@ const Vegetable = props => {
     <Page>
       <ul>{links}</ul>
       Legume : {slug && <div>{slug}</div>}
-      <Relationship relations={vegetable} />
       <div className="vegetable">
         <div className="vegetable__column vegetable__column--centered">
           <Illustration name="vegetables/laitue" />
         </div>
         <div className="vegetable__column">
           <TitleDescription title="Tomate" description="mabite" />
+          <InfoNutrition />
         </div>
         <div className="vegetable__column">
-          <GroundType groundTypes={["test", "toto"]} />
+          <GroundType groundTypes={["argile", "sable", "terreau"]} />
+          <Relationship relations={vegetable} />
         </div>
       </div>
     </Page>
