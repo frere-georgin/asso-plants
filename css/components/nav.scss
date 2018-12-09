@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  padding: 60px 40px 40px 40px;
+  padding: 40px 40px 30px 40px;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   a {
@@ -15,7 +15,19 @@
 
 .nav__link {
   display: inline-block;
-  padding: 0 10px;
+  &:not(:first-child) {
+    padding-left: 20px;
+  }
+}
+
+.nav__right {
+  margin-left: auto;
+  .nav__link {
+    padding: 0 20px;
+    &:last-child {
+      padding-right: 0;
+    }
+  }
 }
 
 .nav__logo {
