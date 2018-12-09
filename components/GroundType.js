@@ -1,23 +1,25 @@
+import LinearIcon from "./LinearIcon";
+
 class GroundType extends React.Component {
   render() {
     const array = this.props.groundTypes.map(groundType => {
       const src = `../static/img/${groundType}.svg`;
 
       return (
-        <div key={groundType}>
-          <img src={src} />
-          {groundType}
-        </div>
+        <li className="ground-type__list__item" key={groundType}>
+          <img className="ground-type__list__item__image" src={src} />
+          <span className="ground-type__list__item__text">{groundType}</span>
+        </li>
       );
     });
 
     return (
-      <section>
+      <section className="ground-type">
         <h3>
-          <i className={this.props.groundTypeLabelIcon || ""} />
+          <LinearIcon name="user" />
           Type de sol
         </h3>
-        {array}
+        <ul className="ground-type__list">{array}</ul>
       </section>
     );
   }

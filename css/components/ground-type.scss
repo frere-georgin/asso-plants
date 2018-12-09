@@ -1,0 +1,15 @@
+.ground-type {
+}
+
+.ground-type__list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.ground-type__list__item {
+  padding: 20px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}

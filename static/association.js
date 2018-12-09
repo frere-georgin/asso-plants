@@ -1,7 +1,7 @@
 const associations = [
   {
     name: "Ail",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/ail.svg",
@@ -19,7 +19,7 @@ const associations = [
   },
   {
     name: "Aneth",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/aneth.svg",
@@ -30,7 +30,7 @@ const associations = [
   },
   {
     name: "Artichaut",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/artichaut.svg",
@@ -41,7 +41,7 @@ const associations = [
   },
   {
     name: "Asperge",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/asperge.svg",
@@ -63,7 +63,7 @@ const associations = [
   },
   {
     name: "Aubergine",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/aubergine.svg",
@@ -74,7 +74,7 @@ const associations = [
   },
   {
     name: "Bette",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/bette.svg",
@@ -85,7 +85,7 @@ const associations = [
   },
   {
     name: "Betterave",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/betterave.svg",
@@ -96,7 +96,7 @@ const associations = [
   },
   {
     name: "Carotte",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/carotte.svg",
@@ -118,7 +118,7 @@ const associations = [
   },
   // {
   //   name: "Céleri",
-  //   ground_type: ["argile", "sable", "normal"],
+  //   ground_type: ["argile", "sable", "terreau"],
   //   sowing_date: "1er janvier",
   //   harvest_date: "12 decembre",
   //   img: "/assets/imgs/svgs/celeri.svg",
@@ -129,7 +129,7 @@ const associations = [
   // },
   // {
   //   name: "Cerfeuil",
-  //   ground_type: ["argile", "sable", "normal"],
+  //   ground_type: ["argile", "sable", "terreau"],
   //   sowing_date: "1er janvier",
   //   harvest_date: "12 decembre",
   //   img: "/assets/imgs/svgs/cerfeuil.svg",
@@ -140,7 +140,7 @@ const associations = [
   // },
   {
     name: "Chou",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/chou.svg",
@@ -162,7 +162,7 @@ const associations = [
   },
   {
     name: "Ciboulette",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/ciboulette.svg",
@@ -173,7 +173,7 @@ const associations = [
   },
   {
     name: "Concombre",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/concombre.svg",
@@ -193,7 +193,7 @@ const associations = [
   },
   {
     name: "Courge",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/courge.svg",
@@ -204,7 +204,7 @@ const associations = [
   },
   {
     name: "Potiron",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/potiron.svg",
@@ -215,7 +215,7 @@ const associations = [
   },
   {
     name: "Courgette",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/courgette.svg",
@@ -226,7 +226,7 @@ const associations = [
   },
   {
     name: "Epinard",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/epinard.svg",
@@ -245,7 +245,7 @@ const associations = [
   },
   {
     name: "Fenouil",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/fenouil.svg",
@@ -256,7 +256,7 @@ const associations = [
   },
   {
     name: "Feve",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/feve.svg",
@@ -267,7 +267,7 @@ const associations = [
   },
   {
     name: "Fraisier",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/fraisier.svg",
@@ -278,7 +278,7 @@ const associations = [
   },
   {
     name: "Haricot",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/haricot.svg",
@@ -303,7 +303,7 @@ const associations = [
   },
   {
     name: "Laitue",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/laitue.svg",
@@ -328,7 +328,7 @@ const associations = [
   },
   {
     name: "Mache",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/laitue.svg",
@@ -339,7 +339,7 @@ const associations = [
   },
   {
     name: "Mais",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/mais.svg",
@@ -357,7 +357,7 @@ const associations = [
   },
   {
     name: "Navet",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/navet.svg",
@@ -377,7 +377,7 @@ const associations = [
   },
   {
     name: "Oignon",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/oignon.svg",
@@ -399,7 +399,7 @@ const associations = [
   },
   {
     name: "Persil",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/persil.svg",
@@ -410,7 +410,7 @@ const associations = [
   },
   {
     name: "Poireau",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/poireau.svg",
@@ -428,7 +428,7 @@ const associations = [
   },
   {
     name: "Pois",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/pois.svg",
@@ -450,7 +450,7 @@ const associations = [
   },
   {
     name: "Pomme de terre",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/patate.svg",
@@ -461,7 +461,7 @@ const associations = [
   },
   {
     name: "Radis",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/radis.svg",
@@ -484,7 +484,7 @@ const associations = [
   },
   {
     name: "Raifort",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/raifort.svg",
@@ -495,7 +495,7 @@ const associations = [
   },
   {
     name: "Tomate",
-    ground_type: ["argile", "sable", "normal"],
+    ground_type: ["argile", "sable", "terreau"],
     sowing_date: "1er janvier",
     harvest_date: "12 decembre",
     img: "/assets/imgs/svgs/tomate.svg",

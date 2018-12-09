@@ -28,10 +28,24 @@
 @import "skeleton.scss";
 
 @import "components/linear-icon.scss";
+@import "components/ground-type.scss";
+@import "components/info-nutrition.scss";
 @import "components/home.scss";
 @import "components/vegetable.scss";
 @import "components/nav.scss";
 @import "components/auto-complete.scss";
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+h4 {
+}
 
 html,
 body,
