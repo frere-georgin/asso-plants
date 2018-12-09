@@ -3,6 +3,7 @@ import Illustration from "./Illustration";
 import LinearIcon from "./LinearIcon";
 
 export default ({ relations }) => {
+  console.log("relations", relations);
   if (!(relations && relations.friends && relations.enemies)) {
     return <div>pas de relation</div>;
   } else {
@@ -10,18 +11,18 @@ export default ({ relations }) => {
       <li className="relationship__list__item" key={friend}>
         <Illustration
           className="relationship__list__item__image"
-          name={`vegetables/${friend.toLowerCase()}`}
+          name={`vegetables/${friend.name.toLowerCase()}`}
         />
-        <div className="relationship__list__item__title">{friend}</div>
+        <div className="relationship__list__item__title">{friend.name}</div>
       </li>
     ));
     const enemies = relations.enemies.map(enemy => (
       <li className="relationship__list__item" key={enemy}>
         <Illustration
           className="relationship__list__item__image"
-          name={`vegetables/${enemy.toLowerCase()}`}
+          name={`vegetables/${enemy.name.toLowerCase()}`}
         />
-        <div className="relationship__list__item__title">{enemy}</div>
+        <div className="relationship__list__item__title">{enemy.name}</div>
       </li>
     ));
     return (
