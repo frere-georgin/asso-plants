@@ -8,4 +8,14 @@
 // };
 
 const withSass = require("@zeit/next-sass");
-module.exports = withSass();
+//module.exports = withSass();
+
+// next.config.js
+const withFonts = require("next-fonts");
+module.exports = withSass(
+  withFonts({
+    webpack(config, options) {
+      return config;
+    }
+  })
+);
