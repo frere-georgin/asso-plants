@@ -50,6 +50,7 @@ class Vegetable extends React.Component {
             <Illustration
               className="vegetable__illustration"
               name={`vegetables/${vegetable.name}`}
+              src={vegetable.img}
               size="300"
             />
             <TitleDescription

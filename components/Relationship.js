@@ -1,43 +1,59 @@
-import Link from "next/link";
+import { withRouter } from "next/router";
+import { Fragment } from "react";
 import Illustration from "./Illustration";
 import LinearIcon from "./LinearIcon";
 
-export default ({ relations }) => {
-  console.log("relations", relations);
-  if (!(relations && relations.friends && relations.enemies)) {
-    return <div>pas de relation</div>;
-  } else {
-    const friends = relations.friends.map(friend => (
-      <li className="relationship__list__item" key={friend}>
+class Relationship extends React.Component {
+  goToVegetable = slug => {
+    this.props.router.push(`/vegetable/${slug}`);
+  };
+
+  renderProtagonists(list) {
+    return list.map(item => (
+      <li
+        className="relationship__list__item"
+        key={item}
+        onClick={() => this.goToVegetable(item.slug)}
+      >
         <Illustration
           className="relationship__list__item__image"
-          name={`vegetables/${friend.name.toLowerCase()}`}
+          name={`vegetables/${item.name.toLowerCase()}`}
+          src={item.imgSrc}
         />
-        <div className="relationship__list__item__title">{friend.name}</div>
+        <div className="relationship__list__item__title">{item.name}</div>
       </li>
     ));
-    const enemies = relations.enemies.map(enemy => (
-      <li className="relationship__list__item" key={enemy}>
-        <Illustration
-          className="relationship__list__item__image"
-          name={`vegetables/${enemy.name.toLowerCase()}`}
-        />
-        <div className="relationship__list__item__title">{enemy.name}</div>
-      </li>
-    ));
-    return (
-      <div className="relationship">
-        <h3 className="relationship__title">
-          <LinearIcon name="smile" /> Amis{" "}
-          <span className="relationship__title__info">{friends.length}</span>
-        </h3>
-        <ul className="relationship__list">{friends}</ul>
-        <h3 className="relationship__title">
-          <LinearIcon name="sad" /> Ennemis{" "}
-          <span className="relationship__title__info">{enemies.length}</span>
-        </h3>
-        <ul className="relationship__list">{enemies}</ul>
-      </div>
-    );
   }
-};
+
+  render() {
+    const { relations } = this.props;
+    if (!(relations && relations.friends && relations.enemies)) {
+      return <div>pas de relation</div>;
+    } else {
+      return (
+        <div className="relationship">
+          <h3 className="relationship__title">
+            <LinearIcon name="smile" /> Amis{" "}
+            <span className="relationship__title__info">
+              {relations.friends.length}
+            </span>
+          </h3>
+          <ul className="relationship__list">
+            {this.renderProtagonists(relations.friends)}
+          </ul>
+          <h3 className="relationship__title">
+            <LinearIcon name="sad" /> Ennemis{" "}
+            <span className="relationship__title__info">
+              {relations.enemies.length}
+            </span>
+          </h3>
+          <ul className="relationship__list">
+            {this.renderProtagonists(relations.enemies)}
+          </ul>
+        </div>
+      );
+    }
+  }
+}
+
+export default withRouter(Relationship);
