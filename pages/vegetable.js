@@ -15,7 +15,7 @@ const Vegetable = props => {
 
   const links = props.vegetables.map(e => (
     <li style={{ display: "inline-block", padding: "0 2px" }}>
-      <Link route="vegetable" params={{ slug: e.name.toLowerCase() }}>
+      <Link route="vegetable" params={{ slug: e.slug }}>
         <a>{e.name}</a>
       </Link>
     </li>
@@ -24,7 +24,7 @@ const Vegetable = props => {
   return (
     <Page>
       <ul>{links}</ul>
-      Legume : {slug && <div>{slug}</div>}
+      <div>{vegetable.name}</div>
       <Relationship relations={vegetable} />
       <div className="vegetable">
         <div className="vegetable__column vegetable__column--centered">
