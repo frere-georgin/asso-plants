@@ -1,6 +1,7 @@
 import Illustration from "./Illustration";
 import TitleDescription from "./TitleDescription";
 import GroundType from "./GroundType";
+import InfoNutrition from "./InfoNutrition";
 
 class Vegetable extends React.Component {
   render() {

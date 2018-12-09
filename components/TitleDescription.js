@@ -1,11 +1,11 @@
 const TitleDescription = props => (
-  <div>
+  <section>
     <h1>{props.title}</h1>
     <p>{props.description}</p>
     <a href={props.wikiUrl} target="_blank">
       En savoir plus
     </a>
-  </div>
+  </section>
 );
 
 export default TitleDescription;
