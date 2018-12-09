@@ -1,5 +1,6 @@
 import Autosuggest from "react-autosuggest";
 import Router from "next/router";
+import Illustration from "./Illustration";
 
 // When suggestion is clicked, Autosuggest needs to populate the input
 // based on the clicked suggestion. Teach Autosuggest how to calculate the
@@ -45,11 +46,16 @@ class AutoComplete extends React.Component {
   // Use your imagination to render suggestions.
   renderSuggestion = suggestion => (
     <div
+      className="suggestion"
       onClick={() => {
         this.handleClick(suggestion.name);
       }}
     >
-      {suggestion.name}
+      <Illustration
+        className="suggestion__illustration"
+        name={`vegetables/${suggestion.name.toLowerCase()}`}
+      />
+      <span className="suggestion__name">{suggestion.name}</span>
       <span className="suggestion__right">
         {suggestion.friends.length + suggestion.friends.length} associations
       </span>
@@ -95,7 +101,12 @@ class AutoComplete extends React.Component {
           renderSuggestion={this.renderSuggestion}
           inputProps={inputProps}
         />
-        <div className="auto-complete__search-icon" />
+        <div className="auto-complete__search">
+          <Illustration
+            name="magnifyingglass"
+            className="auto-complete__search__icon"
+          />
+        </div>
       </div>
     );
   }

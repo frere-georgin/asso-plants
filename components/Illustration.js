@@ -4,7 +4,7 @@ class Illustration extends React.Component {
     const className = `${props.className || ""} illustration illustration--${
       props.name
     }`;
-    const src = `/static/img/vegetables/${props.name}.svg`;
+    const src = `/static/img/${props.name}.svg`;
     const size = `${props.size}px`;
 
     return (

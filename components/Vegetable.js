@@ -8,7 +8,7 @@ class Vegetable extends React.Component {
       <React.Fragment>
         <div className="vegetable">
           <div className="vegetable__column vegetable__column--centered">
-            <Illustration name="laitue" />
+            <Illustration name="vegetables/laitue" />
           </div>
           <div className="vegetable__column">
             <TitleDescription title="Tomate" description="mabite" />

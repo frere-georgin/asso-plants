@@ -116,28 +116,28 @@ const associations = [
     ],
     ennemies: ["Aneth", "Pomme de terre"]
   },
-  {
-    name: "Céleri",
-    ground_type: ["argile", "sable", "normal"],
-    sowing_date: "1er janvier",
-    harvest_date: "12 decembre",
-    img: "/assets/imgs/svgs/celeri.svg",
-    desc:
-      "Le céleri ou ache des marais, persil des marais ou encore cèleri, est une plante herbacée bisannuelle de la famille des Apiacées, cultivée comme plante potagère pour ses feuilles et sa racine tubérisée consommées comme légumes.",
-    friends: ["Chou", "Poireau", "Radis", "Tomate"],
-    ennemies: []
-  },
-  {
-    name: "Cerfeuil",
-    ground_type: ["argile", "sable", "normal"],
-    sowing_date: "1er janvier",
-    harvest_date: "12 decembre",
-    img: "/assets/imgs/svgs/cerfeuil.svg",
-    desc:
-      "Le Cerfeuil commun est une plante herbacée de la famille des Apiacées, probablement originaire de Russie, cultivée comme plante condimentaire pour ses feuilles au goût légèrement anisé.",
-    friends: ["Radis"],
-    ennemies: []
-  },
+  // {
+  //   name: "Céleri",
+  //   ground_type: ["argile", "sable", "normal"],
+  //   sowing_date: "1er janvier",
+  //   harvest_date: "12 decembre",
+  //   img: "/assets/imgs/svgs/celeri.svg",
+  //   desc:
+  //     "Le céleri ou ache des marais, persil des marais ou encore cèleri, est une plante herbacée bisannuelle de la famille des Apiacées, cultivée comme plante potagère pour ses feuilles et sa racine tubérisée consommées comme légumes.",
+  //   friends: ["Chou", "Poireau", "Radis", "Tomate"],
+  //   ennemies: []
+  // },
+  // {
+  //   name: "Cerfeuil",
+  //   ground_type: ["argile", "sable", "normal"],
+  //   sowing_date: "1er janvier",
+  //   harvest_date: "12 decembre",
+  //   img: "/assets/imgs/svgs/cerfeuil.svg",
+  //   desc:
+  //     "Le Cerfeuil commun est une plante herbacée de la famille des Apiacées, probablement originaire de Russie, cultivée comme plante condimentaire pour ses feuilles au goût légèrement anisé.",
+  //   friends: ["Radis"],
+  //   ennemies: []
+  // },
   {
     name: "Chou",
     ground_type: ["argile", "sable", "normal"],

@@ -4,9 +4,9 @@ import "../css/main.scss";
 import associations from "../static/association.js";
 
 export default ({ children }) => (
-  <div className="screen-size">
+  <React.Fragment>
     <Nav />
     <AutoComplete data={associations} />
     {children}
-  </div>
+  </React.Fragment>
 );

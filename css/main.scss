@@ -27,12 +27,15 @@
 @import "normalize.scss";
 @import "skeleton.scss";
 
+@import "components/home.scss";
 @import "components/vegetable.scss";
 @import "components/nav.scss";
 @import "components/auto-complete.scss";
 
 html,
 body,
-__next,
+#__next,
 .screen-size  {
+  width: 100%;
+  height: 100%;
 }
